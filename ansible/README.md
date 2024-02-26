@@ -16,8 +16,6 @@ A secret will be required to be made in the GitHub repo that contains the whole 
 
 ## Docker
 
-Run to build the image in docker.
-`docker build . --tag test:latest`
+Run to build the image in docker `docker build . --tag test:latest`
 
-Run to run the container and forward the port 22
-`docker run -p 22:22 test`
+Run to run the container and forward the port 22 `docker run --rm -p 22:22 test`
